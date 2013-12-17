@@ -1,7 +1,7 @@
 {
-  "name": "native-buffer-browserify",
-  "version": "1.2.2",
-  "description": "buffer module compatibility for browserify (backed by ArrayBuffer so its fast!)",
+  "name": "browser-buffer",
+  "version": "1.0.0",
+  "description": "buffer module compatibility for cortexjs",
   "main": "index.js",
   "dependencies": {
     "base64-js": "feross/base64-js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/native-buffer-browserify.git"
+    "url": "git://github.com/cortexjs/browser-buffer.git"
   },
   "testling": {
     "files": "test/*.js",
@@ -24,14 +24,16 @@
       "firefox/3..latest",
       "safari/5.1..latest",
       "opera/11.0..latest",
-      "iphone/6",
-      "ipad/6",
+      "iphone/6..latest",
+      "ipad/6..latest",
       "android-browser/4.2"
     ]
   },
+  "cortex":{
+
+  },
   "keywords": [
     "buffer",
-    "browserify",
     "compatible",
     "browser",
     "arraybuffer",
